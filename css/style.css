@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
   }
-  .navbar{
+  #navbar{
       background-color: red;
   }
   
@@ -96,7 +96,7 @@
     font-size: 30px;
   }
   
-  .project-grid {
+  .project-tile{
     display: grid;
     grid-column-gap: 40px;
     grid-template-columns: repeat(4, 250px);
@@ -105,24 +105,24 @@
     grid-row-gap: 40px;
   }
   
-  .project-grid img {
+  .project-tile img {
     height: calc(100% - 6.8rem);
     max-width: 100%;
     object-fit: cover;
   }
-  .project-grid p{
+  .project-tile p{
     border-radius: 7px;
     background-color: rgb(90, 44, 44);
     text-align: center;
   }
-  .project-grid a:hover {
+  .project-tile a:hover {
     background-color: rgb(7, 7, 6);
   } .project-grid p:hover{
     transform: matrix(1.2, 0.2, -1, 0.9, 0, 20);
   
   }
   
-  .project-grid p {
+  .project-tile p {
     color: aliceblue;
     font-size: 2rem;
     padding: 2rem 0.5rem;
@@ -146,7 +146,7 @@
     /* padding-top: 10%; */
   }
   
-  .contact-links {
+  #profile {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -155,14 +155,14 @@
     /* flex-wrap: wrap; */
   }
   
-  .contact-links a {
+  #profile a {
     color: white;
     font-size: 1.5rem;
     text-shadow: 2px 2px 2px #1f1f1f;
     transition: transform 0.3s ease-out;
   }
   
-  .contact-links a:hover {
+  #profile a:hover {
     color: rgb(98, 98, 201);
     grid-template-columns: repeat(2, 270px);
     transform: rotate(180deg);
@@ -174,7 +174,9 @@
     }
    
   }
-  
+  #profile-link{
+      
+  }
   
   footer {
     font-weight: 300;
